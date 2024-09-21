@@ -26,7 +26,7 @@ requirements.txt
 ```
 - data: store dataset locally
 - instatext: main project folder
-- test: [unit tests](https://realpython.com/python-testing/)
+- testunit tests](https://realpython.com/python-testing/)
 
 ### Setting up dataset
 Instructions for creating local instance of dataset, or connecting to cloud computing ...
@@ -36,18 +36,22 @@ Instructions for creating local instance of dataset, or connecting to cloud comp
 2. Run script with `python instatext/run.py`
 
 ## Contributing
+### Creating a branch
+1. Create checkout `git checkout -b <branch name>`
+
 ### Adding package requirements
-1. Activate your virtual environment.
-2. Use `pip install` to add required packages.
-3. `pip freeze > requirements.txt`
+2. Activate your virtual environment.
+3. Use `pip install` to add required packages.
+4. `pip freeze > requirements.txt`
 
 ### Formatting
-4. Run `ruff check` and resolve formatting before pushing.
+5. Run `ruff check` and resolve formatting before pushing.
 
 ### Pushing
-5. Add modified files or all files `git add --all` 
-6. Commit changes with message `git commit -m "your comment"`
-7. Push changes `git push origin main`
+6. Add modified files or all files `git add --all` 
+7. Commit changes
+8. Push to remote repo
+9. Merge with main branch
 
 ## Used Technologies
 optical character recognition
